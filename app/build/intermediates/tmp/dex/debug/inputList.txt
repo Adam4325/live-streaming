@@ -1,0 +1,7 @@
+D:\android\mr\mr\app\build\intermediates\classes\debug
+D:\android\mr\mr\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-b1c049e1d354b47e165bcad4856edd38cf5e599c.jar
+D:\android\mr\mr\app\build\intermediates\pre-dexed\debug\vitamio-0f72f542a69232638e22914a58020cc1b4b17243.jar
+D:\android\mr\mr\app\build\intermediates\pre-dexed\debug\volley-c9fa5eef917e3ed2c881c01cb52fa3bbe617ec70.jar
+D:\android\mr\mr\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-b98a93a36fc1813e63c0800d15f8984f933da8d7.jar
+D:\android\mr\mr\app\build\intermediates\pre-dexed\debug\classes-066f1da08b101b9cf39de0affc8820776d725971.jar
+D:\android\mr\mr\app\build\intermediates\pre-dexed\debug\classes-a16e8af1be8025471100368472231423ec506872.jar

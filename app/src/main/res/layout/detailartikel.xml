@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/list_row_selector"
+    android:padding="8dp"
+   >
+
+    <!-- Thumbnail Image -->
+    <com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/thumbnailDetail"
+        android:layout_width="80dp"
+        android:layout_height="170dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/hitDetail"
+        android:layout_alignEnd="@+id/hitDetail" />
+
+    <!-- Movie Title -->
+    <TextView
+        android:id="@+id/titleDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/title"
+        android:textStyle="bold"
+        android:textColor="@color/genre"
+        android:text="Title"
+        android:layout_below="@+id/tanggalDetail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <!-- Rating -->
+    <TextView
+        android:id="@+id/contentDetail"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/genre"
+        android:textSize="@dimen/rating"
+        android:text="content"
+        android:layout_below="@+id/titleDetail"
+        android:layout_toRightOf="@+id/id_content_detail"
+        android:layout_toEndOf="@+id/id_content_detail" />
+
+    <!-- Genre -->
+    <TextView
+        android:id="@+id/tanggalDetail"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:textColor="@color/genre"
+        android:textSize="@dimen/genre"
+        android:text="tanggal"
+        android:layout_below="@+id/thumbnailDetail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <!-- Release Year -->
+    <TextView
+        android:id="@+id/hitDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/genre"
+        android:textSize="@dimen/year"
+        android:text="Hit"
+        android:layout_above="@+id/titleDetail"
+        android:layout_alignRight="@+id/contentDetail"
+        android:layout_alignEnd="@+id/contentDetail" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:id="@+id/id_content_detail"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Share"
+        android:id="@+id/btnShare"
+        android:layout_below="@+id/contentDetail"
+        android:layout_toLeftOf="@+id/hitDetail"
+        android:layout_toStartOf="@+id/hitDetail" />
+
+</RelativeLayout>

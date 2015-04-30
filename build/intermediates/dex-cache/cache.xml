@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="D:\android\mr\mr\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="2c91c949a45a21cdecf26e03951e46c7beec9ad8">
+        <dex dex="D:\android\mr\mr\app\build\intermediates\pre-dexed\debug\classes-a16e8af1be8025471100368472231423ec506872.jar" />
+    </item>
+    <item
+        jar="D:\android\mr\mr\app\build\intermediates\exploded-aar\com.android.support\support-v4\21.0.3\libs\internal_impl-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="01ec05bfbafcc07646ba813000bf2ef11742dd03">
+        <dex dex="D:\android\mr\mr\app\build\intermediates\pre-dexed\debug\internal_impl-21.0.3-b98a93a36fc1813e63c0800d15f8984f933da8d7.jar" />
+    </item>
+    <item
+        jar="D:\android\mr\mr\app\libs\volley.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="D:\android\mr\mr\app\build\intermediates\pre-dexed\debug\volley-c9fa5eef917e3ed2c881c01cb52fa3bbe617ec70.jar" />
+    </item>
+    <item
+        jar="D:\android\mr\mr\app\libs\vitamio.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="811855581ea3c79bd73aecb2e0d143b9474b8f60">
+        <dex dex="D:\android\mr\mr\app\build\intermediates\pre-dexed\debug\vitamio-0f72f542a69232638e22914a58020cc1b4b17243.jar" />
+    </item>
+    <item
+        jar="D:\android\mr\mr\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\21.0.3\classes.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="81d42bf983a8741f4888a6e333e454e4a5e0eeb7">
+        <dex dex="D:\android\mr\mr\app\build\intermediates\pre-dexed\debug\classes-066f1da08b101b9cf39de0affc8820776d725971.jar" />
+    </item>
+    <item
+        jar="C:\Users\Adam\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\21.0.3\support-annotations-21.0.3.jar"
+        jumboMode="false"
+        revision="21.1.2"
+        sha1="4b74cefe1f0c1b819e7260c8627a14674e37fd35">
+        <dex dex="D:\android\mr\mr\app\build\intermediates\pre-dexed\debug\support-annotations-21.0.3-b1c049e1d354b47e165bcad4856edd38cf5e599c.jar" />
+    </item>
+
+</items>

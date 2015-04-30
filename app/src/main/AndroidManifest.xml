@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="io.vov.vitamio"
+    android:versionCode="300"
+    android:versionName="3.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <!--<android:uses-permission-->
+        <!--android:name="android.permission.WRITE_EXTERNAL_STORAGE"-->
+        <!--android:maxSdkVersion="18" />-->
+    <!--<android:uses-permission android:name="android.permission.READ_PHONE_STATE" />-->
+
+    <application
+        android:name="com.adam.iptv.app.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_smk"
+        android:label="@string/vitamio_name"
+        android:theme="@style/Base.Theme.AppCompat">
+        <!--<activity android:name="com.adam.iptv.SplashScreen" >-->
+        <!--</activity>-->
+        <activity
+        android:name="com.adam.iptv.SplashScreen"
+        android:label="@string/vitamio_name"
+        android:screenOrientation="portrait" >
+        <intent-filter>
+        <action android:name="android.intent.action.MAIN" />
+
+        <category android:name="android.intent.category.LAUNCHER" />
+        </intent-filter>
+        </activity>
+        <activity
+            android:name="com.adam.iptv.Navbarhome"
+            android:label="@string/title_activity_navbarhome"
+            android:screenOrientation="portrait">
+        </activity>
+        <activity android:name="com.adam.iptv.WebViewMajelis"></activity>
+        <activity
+            android:name=".activity.InitActivity"
+            android:configChanges="orientation|screenSize|smallestScreenSize|keyboard|keyboardHidden|navigation"
+            android:launchMode="singleTop"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+    <activity android:name="com.adam.iptv.DetailArtikel"
+        android:theme="@style/Theme.AppCompat"></activity>
+        <activity android:name="com.adam.iptv.VideoRTMP"
+            android:theme="@style/Theme.AppCompat"
+            android:screenOrientation="landscape"></activity>
+
+    </application>
+
+</manifest>
